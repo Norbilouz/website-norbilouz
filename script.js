@@ -37,9 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
       successMessage.textContent = "Terima kasih, pesan Anda telah dikirim!";
       event.preventDefault(); // Hapus baris ini jika Anda ingin mengirimkan form
     });
-  } else {
-    console.error("Form dengan ID 'contactForm' tidak ditemukan.");
-  }
+  } 
 });
 
 // Fungsi menyapa
