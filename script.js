@@ -67,7 +67,5 @@ document.addEventListener("DOMContentLoaded", function() {
         modal.style.display = "none";
       }
     };
-  } else {
-    console.error("Elemen modal tidak ditemukan.");
-  }
+  } 
 });
