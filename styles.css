@@ -1,3 +1,32 @@
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #e0e0e0; /* Warna latar belakang abu-abu */
@@ -109,3 +138,4 @@ tr:hover {
   border: 2px solid #ddd;
   border-radius: 4px;
 }
+
